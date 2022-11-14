@@ -1,0 +1,154 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.nav{
+  background-color: #a4d0ff;
+  padding: 5px;
+}
+ .nav-items{
+margin: 0px 10px;
+
+padding: 0px 5px;
+font-weight: bolder;
+font-size: larger;
+}
+
+.nav-logo{
+  margin-right: 100px;
+}
+
+
+#logo{
+  font-size:3vw;
+  font-weight: bolder;
+  /* margin: auto; */
+  margin-bottom: 50px;
+  
+}
+.logo{
+  font-weight: bolder;
+  
+  
+}
+
+/*---------------------- --login */
+
+
+.login-flex{
+  background-color: #a3e7fc;
+  justify-content: space-between;
+  display: flex;
+  padding: 12vw 10vw;
+  
+  }
+
+  .background-radial-gradient {
+    background-color: hsl(218, 41%, 15%);
+    background-image: radial-gradient(650px circle at 0% 0%,
+        hsl(218, 41%, 35%) 15%,
+        hsl(218, 41%, 30%) 35%,
+        hsl(218, 41%, 20%) 75%,
+        hsl(218, 41%, 19%) 80%,
+        transparent 100%),
+      radial-gradient(1250px circle at 100% 100%,
+        hsl(218, 41%, 45%) 15%,
+        hsl(218, 41%, 30%) 35%,
+        hsl(218, 41%, 20%) 75%,
+        hsl(218, 41%, 19%) 80%,
+        transparent 100%);
+  }
+
+   #radius-shape-1 {
+    height: 220px;
+    width: 220px;
+    top: -60px;
+    left: -130px;
+    background: radial-gradient(#2364AA, #A3E7FC);
+    overflow: hidden;
+  }
+  
+   #radius-shape-2 {
+    overflow: hidden;
+    border-radius: 38% 62% 63% 37% / 70% 33% 67% 30%;
+    bottom: 100px;
+    right: 10px;
+    width: 150px;
+    height: 150px;
+    background: radial-gradient(#2364AA, #A3E7FC);
+    
+    
+  }
+
+.form-card{
+  
+  
+  margin-top: 80px;
+  align-items: center;
+  padding: 20px 0px;
+  width: 40%;
+  background-color: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 55px 55px rgba(1, 13, 241, 0.2);
+  height: fit-content;
+  border-radius: 20px;
+ 
+  
+}
+
+
+
+  .text-login p{
+    font-size: 20px;
+    
+  }
+
+  .text-login{
+    width: 50%;
+  }
+
+  .login-form{
+    justify-content: center;
+    
+    margin: 12px;
+    
+  }
+  
+
+.footer{
+  background-color: #0c0a3e;
+}
+
+/* -----------------------addmember form  */
+ 
+
+
+.form-container{
+  
+  margin-right: 5vw;
+  margin-left: auto;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  width: 75%;
+  box-shadow: 0 55px 55px rgba(1, 13, 241, 0.2);
+  border-spacing: 0px;
+  border-radius: 10px;
+  backdrop-filter: blur(14px);
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 30px;
+  justify-content: space-around;
+  border-color: #2364aa;
+  border-style: solid;
+  border-left: 1px;
+  border-right: 1px;
+}
+
+
+.form-container #basic-addon1{
+  width: 180px;
+  font-weight: bold;
+  background-color: rgba(226, 226, 226, 0.796);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
